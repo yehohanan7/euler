@@ -1,5 +1,7 @@
-(defpackage :euler.evenfibo
-  (:use :cl :euler.lambda))
+(defpackage :euler2
+  (:use :cl :lambda))
+
+(in-package :euler2)
 
 (defvar *limit*)
 
@@ -12,6 +14,7 @@
 
 (let ((*limit* 4000000))
   (solution))
+
 
 
 

@@ -1,8 +1,10 @@
-(defpackage :euler.lambda
+(defpackage :lambda
   (:use :cl)
   (:export :compose
            :range
            :defun-fn))
+
+(in-package :lambda)
 
 (defun compose (&rest fns)
   (destructuring-bind (fn1 . rest) (reverse fns)

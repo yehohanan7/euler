@@ -1,5 +1,7 @@
-(defpackage :euler.multi
-  (:use :cl :euler.lambda))
+(defpackage :euler1
+  (:use :cl :lambda))
+
+(in-package :euler1)
 
 (defun multipleof (n d)
   (zerop (mod n d)))
